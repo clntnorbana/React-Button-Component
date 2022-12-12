@@ -15,7 +15,6 @@ export const Button = ({
   onClick,
   buttonStyle,
   buttonSize,
-  hoverStyle,
 }) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
